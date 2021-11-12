@@ -4,9 +4,10 @@ You have 15 minutes to read the task and consider how to implement it.
 
 ENG:
 
-- You have products data in data.js. Get this data and render it on the cards as different products on sale. Each card show info about product (title, content, price). You can click the buttons of these cards to add products to your shopping list. In addition to it you have to decide the number of products you want to add to your list. As you add each product to the list, it will render all items on the other side (item title, the number of product) and total amount. 
+- You have products data in data.js. Get this data and render it on the cards as different products on sale. Each card show info about product (title, content, price, image). You can click the buttons of these cards to add products to your shopping list. In addition to it you have to decide the number of products you want to add to your list. As you add each product to the list, it will render all items on the other side (item title, the number of product) and total amount. 
 Don't lose your time on CSS styling, more important is Javascript. However, good designing will just give you extra points.
-PS. You should render only products in stock.
+PS. You should render only products in stock. Rendering images is not required but this case is also give you extra 2 points.
+
 
 * Create the page that contains cards and shopping list. Get the data from data.js  - 1 point
 * Create cards by DOM elements - 3 points
@@ -19,12 +20,14 @@ PS. You should render only products in stock.
 
 AZE:
 
-- Data.js faylında məhsulların datası verilmişdir. Həmin datanı işləyəcəyiniz js faylına çəkin və onları kartların daxilində render edərək satışda olan müxtəlif məhsullar kimi göstərin. Hər bir kart məhsul barədə müəyyən məlumatları (başlıq, kontent, qiymət) əks etdirəcək. Bu kartlara kliklədikdə həmin məhsulu səbətə əlavə etmək lazımdır. Əlavə olaraq, səbətə əlavə etdikdə məhsulun sayını da göstərmək lazımdır. Hər bir məhsulu əlavə etdikdən sonra səbətdə olan məhsullar yenilənməli və bir kənarda ayrıca "səbətə əlavə olunmuşlar" bölməsində render olunmalıdır. Bu hissədə də məhsul barədə müəyyən məlumatlar (məhsul başlığı, məhsulun sayı) və bütün məhsulların əlavə edildiyi saya görə ümumi qiyməti göstərilməlidir. 
+- Data.js faylında məhsulların datası verilmişdir. Həmin datanı işləyəcəyiniz js faylına çəkin və onları kartların daxilində render edərək satışda olan müxtəlif məhsullar kimi göstərin. Hər bir kart məhsul barədə müəyyən məlumatları (başlıq, kontent, qiymət, şəkil) əks etdirəcək. Bu kartlara kliklədikdə həmin məhsulu səbətə əlavə etmək lazımdır. Əlavə olaraq, səbətə əlavə etdikdə məhsulun sayını da göstərmək lazımdır. Hər bir məhsulu əlavə etdikdən sonra səbətdə olan məhsullar yenilənməli və bir kənarda ayrıca "səbətə əlavə olunmuşlar" bölməsində render olunmalıdır. Bu hissədə də məhsul barədə müəyyən məlumatlar (məhsul başlığı, məhsulun sayı) və bütün məhsulların əlavə edildiyi saya görə ümumi qiyməti göstərilməlidir. 
 Dizayn ilə bağlı zaman itirməyə çalışmayın, daha vacib olan Javascript kodlarıdır. Buna baxmayaraq yaxşı dizayn üçün əlavə xallar veriləcək.
-QEYD: Sadəcə satışda olan məhsulları kartlarda göstərməlisiniz.
+QEYD: Sadəcə satışda olan məhsulları kartlarda göstərməlisiniz. Məhsulun şəklinin kartda render edilməsi mütləq deyil, lakin bu sizə əlavə 2 bal qazandıra bilər.
 
-* Kartları və məhsulları əlavə etdiyiniz səbətin yerləşdiyi səhifəni yaradın. Data.js faylından datanı əldə edin.  - 1 xal
-* DOM elementləri ilə kartları yaradın. - 3 xal
-* Kartlarda məhsulların məlumatlarını göstərin. - 3 xal
-* Məhsulların sayını azaldıb çoxaldan funksionallığı əlavə edin və bu məlumatları məhsullar əlavə edilən səbətə göndərin. - 5 xal
-* Seçilmiş məhsulların yığıldığı səbəti yaradın və əlavə edilmiş məhsulları burada render edin. - 8 xal
+* Kartları və məhsulları əlavə etdiyiniz səbətin yerləşdiyi səhifəni yaradın. Data.js faylından datanı əldə edin.  - 1 bal
+* DOM elementləri ilə kartları yaradın. - 3 bal
+* Kartlarda məhsulların məlumatlarını göstərin. - 3 bal
+* Məhsulların sayını azaldıb çoxaldan funksionallığı əlavə edin və bu məlumatları məhsullar əlavə edilən səbətə göndərin. - 5 bal
+* Seçilmiş məhsulların yığıldığı səbəti yaradın və əlavə edilmiş məhsulları burada render edin. - 8 bal
+
+** Yarana biləcək problemlərlə bağlı ehtimalların nəzərə alınması sizə 1 bal qazandıra bilər.
