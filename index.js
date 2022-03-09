@@ -1,6 +1,6 @@
 const dataArray = []
 const rightArray = []
-fetch('../fed6_midterm/data.json').then(file=>file.json()).then(data=>data.data).then(data=>{
+fetch('./data.json').then(file=>file.json()).then(data=>data.data).then(data=>{
     data.map(element => {
         if(element.stock){
             dataArray.push(element)
