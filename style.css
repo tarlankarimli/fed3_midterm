@@ -1,0 +1,47 @@
+
+
+.left {
+    width: 70%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.right {
+    width: 30%;
+    height: 100%;
+    background-color:antiquewhite;
+
+}
+
+.main {
+    display: flex;
+}
+
+.card {
+    background-color:yellow;
+    width: 500px;
+    height: 500px;
+    margin: 10px;
+   justify-content: center;
+   padding: 10px;
+   border-radius: 10px;
+   box-sizing: border-box;
+}
+
+.img {
+
+    width: 100px;
+    height: 100px;
+
+}
+
+.button {
+    padding: 10px 50px;
+    border-radius:5px;
+    background-color:red;
+    color:white;
+    padding-bottom: 15px;
+}
