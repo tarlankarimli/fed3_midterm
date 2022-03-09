@@ -1,0 +1,48 @@
+.container{
+    background-color: red;
+    display: flex;
+}
+
+.left-side{
+    display: flex;
+    flex: 3;
+    height: 100vh;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.left-side img{
+    width: 200px;
+}
+
+.card{
+    padding: 5px;
+    border: 1px solid black;
+    width: 500px;
+    /* height: 500px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    margin: 30px;
+}
+
+.card span{
+    padding: 5px 10px;
+    margin: 0 3px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+
+
+.card button{
+    width: 10rem;
+    font-size: 2rem;
+    margin-top: 15px;
+}
+.right-side{
+    flex: 1;
+    background-color: yellow;
+}
