@@ -29,6 +29,11 @@ body{
     display:flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+}
+
+.sebetim ol{
+    list-style-type: none;
 }
 
 .card-container{
@@ -84,5 +89,14 @@ body{
     margin-top:1rem;
     border-radius: 5px;
     font-size:0.9rem;
+    cursor:pointer;
+}
+
+
+.sebetim img{
+    width:70px;
+    position: absolute;
+    right: 2rem;
+    top:2rem;
     cursor:pointer;
 }
